@@ -11,7 +11,6 @@ html, body {
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	line-height: 30px;
-	background-color: grey;
 }
 #wrap {
 	width: 100%;
@@ -37,17 +36,44 @@ a {
 /*Header Styles*/
 header {
 	width: 100%;
-	height: 50px;
+	height: 35px;
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	transition: all .3s ease-in-out;
+	color: white;
 }
+	nav {
+		display: inline;
+
+	}
+
+	nav a {
+		list-style-type: none;
+		margin-left: 10px;
+		float: left;
+		color: white;
+	}
+	.name {
+		color: white;
+		font-size: 1.2rem;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
 /*Hero Styles*/
-#hero {
+.hero {
 	width: 100%;
 	height: 420px;
 	background-image: 
 		linear-gradient(
 	    rgba(25, 25, 25, 0),
 	    rgba(0, 0, 0, 0.1)
-	    ), url('../img/book.jpg');
+	    ), url('../img/back1.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -57,6 +83,7 @@ header {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
 }
 
 
@@ -99,7 +126,7 @@ input[type="text"] {
 footer {
 	height: 50px;
   	margin-top: -50px;
-	background-color: #0F1626;
+	background-color: #292929;
 }
 
 /*Media queries*/
