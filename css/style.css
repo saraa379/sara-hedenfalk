@@ -11,16 +11,8 @@ html, body {
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	line-height: 30px;
-	background-color: #837a7b;
-	/*
-	background-image: 
-		linear-gradient(
-	    rgba(25, 25, 25, 0),
-	    rgba(0, 0, 0, 0)
-	    ), url('../img/back33.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;*/
+	background-color: #cccce5;
+	/*background-color: #837a7b;*/
 }
 #wrap {
 	width: 100%;
@@ -73,7 +65,8 @@ header {
 		padding-bottom: 7px;
 	}
 	nav a:hover {
-		background-color: white;
+		background-color: #cccce5;
+		color: #060606;
 	}
 	.active {
 		background-color: #FF4081;
@@ -90,7 +83,7 @@ header {
 /*Hero Styles*/
 .hero {
 	width: 100%;
-	height: 650px;
+	height: 750px;
 	position: absolute;
 	background-image: 
 		linear-gradient(
@@ -157,6 +150,18 @@ input[type="text"] {
       0 0 15px 3px #000019;
 	/*box-shadow: 3px 3px 10px 5px #000019;*/
 }
+	.topDiv {
+		min-height: 450px;
+	}
+	.middleDiv {
+		min-height: 450px;
+		background-color: #060606;
+		/*background gradient*/
+	}
+	.bottomDiv {
+		min-height: 450px;
+		background-color: #cccce5;
+	}
 
 /*Footer styles*/
 footer {
