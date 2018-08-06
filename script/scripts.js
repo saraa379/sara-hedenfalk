@@ -10,7 +10,7 @@ function myFunction(welcomeText) {
     	document.getElementsByClassName("welcome")[0].innerHTML = "Welcome!";
     }
 }
-var welcomeText = window.matchMedia("(max-width: 440px)")
+var welcomeText = window.matchMedia("(max-width: 450px)")
 myFunction(welcomeText) // Call listener function at run time
 welcomeText.addListener(myFunction) // Attach listener function on state changes
 
