@@ -197,8 +197,10 @@ input[type="text"] {
 		background-color: #060606;
 	}
 		#skillTitle {
-			margin-left: 30px;
 			padding-top: 30px;
+			text-transform: uppercase;
+			font-size: 1.6rem;
+			text-align: center;
 		}
 		.skills {
 			margin-left: 30px;
@@ -230,18 +232,35 @@ input[type="text"] {
 		.js {width: 90%;}
 		.react {width: 85%;}
 		.firebase {width: 80%;}
-		.ps {width: 70%;}
-		.scrum {width: 95%; margin-bottom: 40px;}
+		.ps {width: 60%;}
+		.scrum {width: 90%; margin-bottom: 40px;}
 
 		.skillName {
 			margin-left: 20px;
 		}
 		.last {height: 70px;}
+		.halfCircle {
+		    width: 70px;
+		    height: 35px; /* as the half of the width */
+		    border-top-left-radius: 100px;
+		    border-top-right-radius: 100px;
+		    border: 2px solid #cccce5;
+		    border-bottom: 0;
+		    background-color: #cccce5;
+		    position: relative;
+		    margin: 0 auto; 
+		}
 
 	.bottomDiv {
 		min-height: 450px;
 		background-color: #cccce5;
 	}
+		#work {
+			color: #323232;
+			padding-top: 30px;
+			text-transform: uppercase;
+			font-size: 1.6rem;text-align: center;
+		}
 
 /*Footer styles*/
 footer {
@@ -251,6 +270,11 @@ footer {
 }
 
 /*Media queries*/
+@media (max-width: 1200px) {
+	.hero {
+		height: 1200px;
+	}
+}
 
 @media (max-width: 960px) {
 	.aboutImg {
