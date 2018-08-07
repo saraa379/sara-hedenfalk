@@ -1,7 +1,9 @@
+//Author: Sarantsetseg Hedenfalk
+
 window.addEventListener('load', function(event) {
 
 
-//Changes Welcome text to Sara in small screen size
+//Changes Welcome text to name in small screen size
 function myFunction(welcomeText) {
     if (welcomeText.matches) { // If media query matches
         document.getElementsByClassName("welcome")[0].innerHTML = "Sara";
