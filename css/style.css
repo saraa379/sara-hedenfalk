@@ -11,7 +11,7 @@ html, body {
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	line-height: 30px;
-	background-color: #cccce5;
+	background-color: #D0D0D0;
 	/*background-color: #837a7b;*/
 }
 #wrap {
@@ -266,9 +266,17 @@ input[type="text"] {
 			width: 100%;
 			height: 100%;
 			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			align-items: center;
 			background-position: center 70%;
 			background-repeat: no-repeat;
 			background-size: cover;
+			font-size: 1.5rem;
+		}
+		.workImg p {
+			color: white;
+			text-shadow: 3px 3px 10px black;
 		}
 		.spa {
 			background-image: 
