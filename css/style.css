@@ -326,7 +326,7 @@ footer {
 		flex-flow: row wrap;
 		justify-content: space-around;
 		padding-right: 30px;
-		padding-left: 20px;
+		padding-left: 30px;
 	}
 	.child {
 		margin-top: 250px;
@@ -335,7 +335,7 @@ footer {
 	.child h4 {
 		font-weight: normal;
 		font-size: 1.2rem;
-		border-bottom: 3px solid rgb(168,168,168);
+		border-bottom: 3px solid #868e96;
 		padding-bottom: 8px;
 		color: #868e96;
 	}
