@@ -117,16 +117,7 @@ header {
 	font-size: 1.2rem;
 	border:none;
 }
-input[type="text"] {
-	display: block;
-	color: #0F1626;
-	margin-left: 20px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	height: 30px;
-	width: 250px;
-	font-size: 1.2rem;
-}
+
 
 /*contentDiv styles*/
 
@@ -321,6 +312,37 @@ input[type="text"] {
 			margin-top: 30px;
 		}
 
+
+/*Personal info styles*/
+.pTitle {
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 3px 3px 10px black
+}
+.dotted {
+	border: 1px dotted #868e96;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-style: dotted;
+}
+.picContact {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	margin-right: 20px;
+}
+.resumeTop {
+	justify-content: space-around;
+}
+.contact {
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#resumeHero {
+	height: 1000px;
+}
+
 /*Footer styles*/
 footer {
 	min-height: 400px;
@@ -417,6 +439,12 @@ footer {
 		width: 100%;
 	}
 }
+@media (max-width: 880px) {
+	#resumeHero {
+		height: 1300px;
+	}
+}
+
 @media (max-width: 780px) {
 	.contentDiv {
 		width: 80%;
@@ -471,6 +499,10 @@ footer {
 	.aboutImg {
 		width: 200px;
 		height: 250px;
+	}
+	.contact {
+		margin-left: 20px;
+		margin-top: 30px;
 	}
 	
 }
