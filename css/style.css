@@ -342,6 +342,9 @@ header {
 #resumeHero {
 	height: 1000px;
 }
+#imgPer {
+	filter: grayscale(60%);
+}
 
 /*Footer styles*/
 footer {
@@ -449,14 +452,24 @@ footer {
 	.contentDiv {
 		width: 80%;
 	}
+	#resumeHero {
+		height: 900px;
+	}
 }
-
+@media (max-width: 660px) {
+	#resumeHero {
+		height: 1300px;
+	}
+}
 @media (max-width: 600px) {
 	h1 {
 		font-size: 1.5rem;
 	}
 	nav {
 		margin-right: 0;
+	}
+	#skillTitle {
+		font-size: 1.2rem;
 	}
 }
 @media (max-width: 450px) {
@@ -478,7 +491,6 @@ footer {
 	}
 	#skillTitle {
 		margin-left: 0;
-		font-size: 1.4rem;
 	}
 	.skills {
 		margin-left: 0;
