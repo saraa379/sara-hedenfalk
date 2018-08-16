@@ -345,6 +345,24 @@ header {
 #imgPer {
 	filter: grayscale(60%);
 }
+#skillsResume {
+		/*
+			background-image: 
+			linear-gradient(
+		    rgba(0, 0, 24, 0.5),
+		    rgba(0, 0, 24, 0.5)
+		    ), url('../img/edu1.jpg');
+		background-position: center 70%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		opacity: 0.3;*/
+		color: white;
+	}
+	.logoEdu {
+		height: 30px;
+		width: 30px;
+	}
+
 
 /*Footer styles*/
 footer {
@@ -407,7 +425,7 @@ footer {
 		font-size: 0.9rem;
 		color: #868e96;
 	}
-
+	
 /*Media queries*/
 @media (max-width: 1200px) {
 	.hero {
