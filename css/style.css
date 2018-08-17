@@ -430,6 +430,7 @@ header {
 	}
 	.short {
 		width: 30%;
+		align-self: center;
 	}
 	.descStr {
 		margin: 20px;
@@ -444,6 +445,9 @@ header {
 	}
 	.subjects li {
 		margin-left: 20%;
+	}
+	#bottomP {
+		padding-bottom: 30px;
 	}
 
 /*Footer styles*/
