@@ -428,6 +428,9 @@ header {
 	.descLine {
 		margin: 20px;
 	}
+	.short {
+		width: 30%;
+	}
 	.descStr {
 		margin: 20px;
 		height: 2px;
