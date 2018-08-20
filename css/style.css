@@ -449,6 +449,52 @@ header {
 	#bottomP {
 		padding-bottom: 30px;
 	}
+	.dot {
+	    height: 25px;
+	    width: 25px;
+	    background-color: #C8C8C8;
+	    border-radius: 50%;
+	    display: inline-block;
+	    margin-right: 5px;
+	}
+	.langGrey {
+		background-color: grey;
+	}
+	.dots {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+	#trans {
+		text-align: left;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		background-color: transparent;
+	}
+	.center {
+		align-self: center;
+	}
+	.lang {
+		width: 120px;
+		font-size: 1.1rem;
+		color: #323232;
+		font-weight: bold;
+	}
+	.first {
+		margin-top: 30px;
+	}
+	#langCircle {
+		
+	}
+	#langBottomDiv {
+		min-height: 300px;
+	}
+	.marginBottom {
+		margin-bottom: 30px;
+	}
 
 /*Footer styles*/
 footer {
@@ -550,6 +596,16 @@ footer {
 	#resumeHero {
 		height: 1300px;
 	}
+	#trans {
+		flex-flow: column wrap;
+		justify-content: flex-start;
+	}
+	.center {
+		align-self: flex-start;
+	}
+	.lang {
+		padding-bottom: 10px;
+	}
 }
 
 @media (max-width: 780px) {
@@ -559,6 +615,7 @@ footer {
 	#resumeHero {
 		height: 900px;
 	}
+
 }
 @media (max-width: 660px) {
 	#resumeHero {
@@ -573,6 +630,9 @@ footer {
 		margin-right: 0;
 	}
 	#skillTitle {
+		font-size: 1.2rem;
+	}
+	#work {
 		font-size: 1.2rem;
 	}
 }
@@ -620,7 +680,6 @@ footer {
 		margin-left: 20px;
 		margin-top: 30px;
 	}
-	
 }
 @media (max-width: 320px) {
 
