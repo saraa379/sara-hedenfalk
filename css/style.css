@@ -558,7 +558,12 @@ header {
 	#linkedin, #fb {
 		color: #585858;
 	}
-
+/*Coming soon page style*/
+.coming {
+		font-family: 'Cookie', cursive;
+		font-size: 2.7rem;
+		align-self: center;
+}
 /*Footer styles*/
 footer {
 	min-height: 400px;
@@ -751,5 +756,9 @@ footer {
 	.contactWrap {
 		width: 90%;
 	}
-
+	.coming {
+		font-family: 'Cookie', cursive;
+		font-size: 2.2rem;
+		align-self: center;
+	}
 }
