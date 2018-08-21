@@ -452,13 +452,14 @@ header {
 	.dot {
 	    height: 25px;
 	    width: 25px;
-	    background-color: #C8C8C8;
+	    background-color: grey;
+	    opacity: 0.3;
 	    border-radius: 50%;
 	    display: inline-block;
 	    margin-right: 5px;
 	}
 	.langGrey {
-		background-color: grey;
+		opacity: 1;
 	}
 	.dots {
 		display: flex;
@@ -494,6 +495,68 @@ header {
 	}
 	.marginBottom {
 		margin-bottom: 30px;
+	}
+
+/*Contact page styles*/
+	#heroContact {
+		height: 100%;
+		align-items: center;
+		flex-flow: column wrap;
+	}
+	.contactWrap {
+		min-height: 300px;
+		position: relative;
+		width: 60%;
+		z-index: 99;
+		align-self: center;
+		box-shadow:
+	      0 0 15px 3px #000019;
+		/*box-shadow: 3px 3px 10px 5px #000019;*/
+		margin-bottom: 100px;
+		margin-top: 30px;
+		padding-top: 30px;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+	}
+	.contactTitle {
+		padding-top: 0;
+		font-family: 'Cookie', cursive;
+		font-size: 2.5rem;
+	}
+	.contactRow {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		margin-bottom: 10px;
+		width: 250px;
+		align-self: center;
+	}
+	.inlineP {
+		display: inline;
+		font-size: 1.2rem;
+	}
+	.contactIcon {
+		margin-right: 10px;
+		font-size: 1.5rem;
+	}
+	.fixed {
+		width: 250px;
+		align-self: center;
+		height: 2px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.fixedIconRow {
+		width: 250px;
+		align-self: center;
+	}
+	.contactIcon {
+		margin-right: 10px;
+	}
+	#linkedin, #fb {
+		color: #585858;
 	}
 
 /*Footer styles*/
@@ -635,6 +698,9 @@ footer {
 	#work {
 		font-size: 1.2rem;
 	}
+	.contactWrap {
+		width: 80%;
+	}
 }
 @media (max-width: 450px) {
 	header {
@@ -682,5 +748,8 @@ footer {
 	}
 }
 @media (max-width: 320px) {
+	.contactWrap {
+		width: 90%;
+	}
 
 }
