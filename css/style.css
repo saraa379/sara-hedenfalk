@@ -383,7 +383,7 @@ header {
 	.resumeTop {
 		justify-content: space-around;
 	}
-	.contact {
+	.contactPer {
 		margin-left: 50px;
 		margin-top: 30px;
 	}
@@ -706,6 +706,12 @@ footer {
 	.contactWrap {
 		width: 80%;
 	}
+	#eduH4 {
+		font-size: 1rem;
+	}
+	#chLogo {
+		display: none;
+	}
 }
 @media (max-width: 450px) {
 	header {
@@ -738,6 +744,9 @@ footer {
 	.contact, .social {
 		margin-top: 30px;
 	}
+	.dissap {
+		display: none;
+	}
 }
 @media (max-width: 380px) {
 	.hero {
@@ -750,6 +759,12 @@ footer {
 	.contact {
 		margin-left: 20px;
 		margin-top: 30px;
+	}
+	.contentDiv {
+		width: 100%;
+	}
+	.contact {
+		margin-left: 0;
 	}
 }
 @media (max-width: 320px) {
